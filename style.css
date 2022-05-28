@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    background-color:seagreen;
+    height: 65px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.logo {
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+
