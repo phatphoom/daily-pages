@@ -2,10 +2,23 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    /* max-width: 1920px; */
+    /* width: 100vw; */
+    min-width: auto;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "asideleft main main asideright"
+    "footer footer footer footer";
+}
 .navbar{
     width: 100%;
     background-color:seagreen;
     height: 65px;
+    grid-area: nav;
+    margin: 0 0 10px 0;
 }
 .nav-container {
     display: flex;
@@ -32,4 +45,27 @@ nav a {
     font-size: 25px;
 }
 
+.main {
+    background-color: #4f3;
+    height: 400px;
+    grid-area:main;
+    margin: 0 8px;
+}
+.aside-right {
+    grid-area:asideright;
+    background-color: blue;
+    margin: 0 5px;
+}
+.aside-left {
+    grid-area:asideleft;
+    background-color: skyblue;
+    margin: 0 5px;
+}
+.footer{
+    height: 250px;
+    background-color:steelblue;
+    grid-area:footer;
+    margin: 11px 5px;
+}
 
+ 
