@@ -52,8 +52,15 @@
     list-style-type: none;
     margin-right: 20px;
 }
+.navbar nav :hover{
+    color: #fff;
+}
 .logo {
     display: flex;
     width: 200px;
     justify-content: space-around;
+}
+.logo:hover{
+    cursor: pointer;
+    color: #fff;
 }
