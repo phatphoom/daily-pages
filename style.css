@@ -38,6 +38,7 @@
 }
 .head-content{
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -50,4 +51,9 @@
     justify-content: space-between;
     list-style-type: none;
     margin-right: 20px;
+}
+.logo {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
 }
